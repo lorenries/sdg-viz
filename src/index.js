@@ -18,8 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // instatiate the chart with the data and the container
     const chart = new Scatterplot({
       el: viz,
-      activeData: initialData,
-      fullData: data,
+      data: initialData,
       x: xAccessor,
       y: yAccessor,
       xDomain: d3.extent(data, xAccessor),

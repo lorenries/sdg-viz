@@ -3,7 +3,7 @@ import * as d3 from "d3";
 class Scatterplot {
   constructor(opts) {
     this.el = opts.el;
-    this.data = opts.activeData;
+    this.data = opts.data;
     this.x = opts.x;
     this.y = opts.y;
     this.xDomain = opts.xDomain;

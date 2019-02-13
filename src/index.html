@@ -7,19 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div class="chart-container"></div>
-    <div class="slider-container">
-      <span>1990</span>
-      <input
-        class="slider"
-        type="range"
-        value="2015"
-        min="1990"
-        max="2015"
-        step="1"
-      />
-      <span>2015</span>
-    </div>
+    <main class="container">
+      <header>
+        <p>
+          <a
+            href="http://datatopics.worldbank.org/sdgatlas/SDG-03-good-health-and-well-being.html"
+            >According to the World Bank</a
+          >, "better staffed health systems can lead to improved health
+          outcomes." This data visualization tracks the maternal mortality ratio
+          over time in relation to the percentage of births attended by skilled
+          health staff.
+        </p>
+        <p>
+          👆Try clicking on a country's data point and adjusting the year slider
+          below to see how these values change.
+        </p>
+      </header>
+      <div class="chart-container"></div>
+      <div class="slider-container">
+        <span>1990</span>
+        <input
+          class="slider"
+          type="range"
+          value="2015"
+          min="1990"
+          max="2015"
+          step="1"
+        />
+        <span>2015</span>
+      </div>
+    </main>
   </body>
   <script src="bundle.js"></script>
 </html>
