@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -105,4 +111,7 @@ circle {
 .axis-label {
   font-size: 14px;
   fill: #fff;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 }
